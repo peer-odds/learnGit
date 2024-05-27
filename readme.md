@@ -74,7 +74,20 @@ EXPOSE
 ```
 CMD
 ```
+
+```
+docker build -t dockerusername/tagname:tagversions .
+```
+```
+docker run -dp 3000:3000 dockerusername/tagname:tagversions
+```
+`-d` = detach
+`-p` = publish port
 # Docker compose
 ```
 brew install --cask docker
+```
+docker 
+```
+docker compose up -d
 ```
